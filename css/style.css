@@ -1,0 +1,92 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  background-color: #eef3f5;
+}
+
+img {
+  width: 100%;
+}
+
+.menu_nav {
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  padding-right: 5rem;
+  margin-bottom: 2rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.menu_nav li {
+  text-align: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding: 2rem 2rem;
+}
+
+.menu_nav li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu_nav li a::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #009adf;
+  -webkit-transform: translateY(10px) scale(0);
+          transform: translateY(10px) scale(0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu_nav li a:hover {
+  text-decoration: none;
+}
+
+.menu_nav li a:hover::after {
+  -webkit-transform: translateY(10px) scale(1);
+          transform: translateY(10px) scale(1);
+}
+
+.sidebar_menu {
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.sidebar_menu li:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #009adf;
+}
+
+.sidebar_menu li:hover a {
+  color: #fff;
+}
+
+.sidebar_menu a {
+  display: block;
+  padding: 15px 29px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
