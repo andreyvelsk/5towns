@@ -4,13 +4,20 @@ html
     font-size: 10px
 
 body
-    font-size: 18px
+    font-size: 1.8rem
     font-family: 'Roboto'
     font-weight: 300
     background-color: #eef3f5
 
 img
     width: 100%
+
+.tns
+    &-outer
+        button
+            display: none
+
+
 .menu
     &_nav
         width: 100%
@@ -49,7 +56,6 @@ img
         background-color: #fff
         list-style: none
         padding: 0
-        text-align: center
         li
             &:hover
                 transition: all 0.5s
@@ -63,3 +69,28 @@ img
             color: $dark
             font-size: 16px
             font-weight: 400
+
+.content
+    padding-bottom: 4rem
+    p
+        text-indent: 2rem
+        font-weight: 300
+        font-size: 1.6rem
+    h1
+        text-align: center
+        padding-bottom: 1rem
+        font-weight: bold
+    h2
+        padding: 0.5rem 0
+        font-size: 2rem
+    &_photo
+        padding-bottom: 2rem
+        img
+            border-radius: 1rem
+
+.footer
+    padding: 2rem
+    background-color: $dark
+    color: $footer-text
+    display: flex
+    justify-content: center
