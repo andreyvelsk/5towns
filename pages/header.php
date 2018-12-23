@@ -29,7 +29,7 @@
             </div>
             <div class="menu">
                 <ul class="menu_nav">
-                    <li><a href="#">Ярославль</a></li>
+                    <li><a href="index.php">Ярославль</a></li>
                     <li><a href="#">Углич</a></li>
                     <li><a href="#">Мышкин</a></li>
                     <li><a href="#">Данилов</a></li>

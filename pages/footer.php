@@ -1,6 +1,6 @@
 
 <div class="footer">
-    Все права защищены
+    &copy; <?php echo date("Y"); ?> Все права защищены
 </div>
 
 
