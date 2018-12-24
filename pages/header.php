@@ -19,15 +19,16 @@
                     <img src="img/header1.jpg" alt="5 лучших городов">
                 </div>
                 <div>
-                    <img src="img/header1.jpg" alt="5 лучших городов">
+                    <img src="img/header2.jpg" alt="5 лучших городов">
                 </div>
                 <div>
-                    <img src="img/header1.jpg" alt="5 лучших городов">
+                    <img src="img/header3.jpg" alt="5 лучших городов">
                 </div>
             </div>
             <!-- or ul.my-slider > li -->
             </div>
             <div class="menu">
+                <a class="menu-link"><span></span></a>
                 <ul class="menu_nav">
                     <li><a href="index.php">Ярославль</a></li>
                     <li><a href="#">Углич</a></li>

@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="sidebar col-lg-3">
+        <div class="col-lg-3">
             <?php
             include 'pages/sidebar.php';
             ?>

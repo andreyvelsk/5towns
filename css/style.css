@@ -28,7 +28,7 @@ img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   list-style: none;
-  padding-right: 5rem;
+  padding: 0 4rem;
   margin-bottom: 2rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -132,5 +132,11 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
