@@ -83,6 +83,7 @@ img {
   background-color: #fff;
   list-style: none;
   padding: 0;
+  font-size: 1.6rem;
 }
 
 .sidebar_menu li:hover {
@@ -100,7 +101,6 @@ img {
   padding: 15px 29px;
   text-decoration: none;
   color: #000;
-  font-size: 16px;
   font-weight: 400;
 }
 
@@ -185,6 +185,12 @@ img {
   }
   .sidebar {
     display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .sidebar_menu {
+    font-size: 1.4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
