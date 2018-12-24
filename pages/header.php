@@ -14,17 +14,17 @@
     <div class="container">
         <div class="header">
             <div class="slider">
-            <div class="my-slider">
-                <div>
-                    <img src="img/header1.jpg" alt="5 лучших городов">
+                <div class="my-slider">
+                    <div>
+                        <img src="img/header1.jpg" alt="5 лучших городов">
+                    </div>
+                    <div>
+                        <img src="img/header2.jpg" alt="5 лучших городов">
+                    </div>
+                    <div>
+                        <img src="img/header3.jpg" alt="5 лучших городов">
+                    </div>
                 </div>
-                <div>
-                    <img src="img/header2.jpg" alt="5 лучших городов">
-                </div>
-                <div>
-                    <img src="img/header3.jpg" alt="5 лучших городов">
-                </div>
-            </div>
             <!-- or ul.my-slider > li -->
             </div>
             <div class="menu">
