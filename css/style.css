@@ -21,6 +21,10 @@ img {
   padding-top: 2rem;
 }
 
+.slider {
+  visibility: hidden;
+}
+
 .menu_header {
   display: none;
 }

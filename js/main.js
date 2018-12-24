@@ -6,6 +6,8 @@ var slider = tns({
 
 $(function() {
 
+    $('.slider').css('visibility', 'visible');
+
     $(".sidebar_menu").on("click","a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
