@@ -1,3 +1,30 @@
 @media (max-width: 991px)
+    .menu
+        &_header
+            padding: 2rem 2rem
+            background-color: $white
+            cursor: pointer
+            display: block
+            position: relative
+            &::after
+                content: ''
+                display: inline-block
+                width: 15px
+                height: 15px
+                border-bottom: 2px solid $dark
+                border-right: 2px solid $dark
+                position: absolute
+                right: 2rem
+                top: 50%
+                margin-top: -10px
+                transform: rotate(45deg)
+                transition: all 0.5s
+            &-active
+                &::after
+                    transform: rotate(-135deg)
+        &_nav
+            display: none
+            overflow: hidden
+            transition: none
     .sidebar
         display: none

@@ -28,7 +28,9 @@
             <!-- or ul.my-slider > li -->
             </div>
             <div class="menu">
-                <a class="menu-link"><span></span></a>
+                <div class="menu_header">
+                    Выбрать город
+                </div>
                 <ul class="menu_nav">
                     <li><a href="index.php">Ярославль</a></li>
                     <li><a href="#">Углич</a></li>
