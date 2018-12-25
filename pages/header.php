@@ -25,7 +25,6 @@
                         <img src="img/header3.jpg" alt="5 лучших городов">
                     </div>
                 </div>
-            <!-- or ul.my-slider > li -->
             </div>
             <div class="menu">
                 <div class="menu_header">
