@@ -33,10 +33,10 @@
                 </div>
                 <ul class="menu_nav">
                     <li><a href="index.php">Ярославль</a></li>
-                    <li><a href="#">Углич</a></li>
-                    <li><a href="#">Мышкин</a></li>
-                    <li><a href="#">Данилов</a></li>
-                    <li><a href="#">Рыбинск</a></li>
+                    <li><a href="index.php?city=uglich">Углич</a></li>
+                    <li><a href="index.php?city=myshkin">Мышкин</a></li>
+                    <li><a href="index.php?city=danilov">Данилов</a></li>
+                    <li><a href="index.php?city=rybinsk">Рыбинск</a></li>
                 </ul>
             </div>
         </div>
